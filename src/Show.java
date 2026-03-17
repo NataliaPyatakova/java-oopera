@@ -54,9 +54,9 @@ public class Show {
             }
             if (!listOfActors.contains(actor)) {
                 listOfActors.add(actor);
-                System.out.println("Актер " + actor.toString() + " добавлен в спектакль!");
+                System.out.println("Актер " + actor + " добавлен в спектакль!");
             } else {
-                System.out.println("Актер " + actor.toString() + " уже участвует в спектакле!");
+                System.out.println("Актер " + actor + " уже участвует в спектакле!");
             }
         }
     }
@@ -79,9 +79,9 @@ public class Show {
                     System.out.println("Актер с фамилией " + replacedActorSurName + " в спектакле не участвует");
                 } else {
                     listOfActors.remove(replacedActor);
-                    System.out.println("Актер " + replacedActor.toString() + " удален из спектакля!");
+                    System.out.println("Актер " + replacedActor + " удален из спектакля!");
                     listOfActors.add(actor);
-                    System.out.println("Актер " + actor.toString() + " добавлен в спектакль!");
+                    System.out.println("Актер " + actor + " добавлен в спектакль!");
                 }
             }
         }
