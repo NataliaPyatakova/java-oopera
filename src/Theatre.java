@@ -9,8 +9,8 @@ public class Theatre {
         Actor actor3 = new Actor("Марья", "Морева", Gender.FEMALE, 160);
         Director director1 = new Director("Агафон", "Агафонов", Gender.MALE);
         Director director2 = new Director("Дарья", "Дарина", Gender.FEMALE);
-        MusicAuthor musicAuthor1 = new MusicAuthor("Джакомо", "Пуччини", Gender.MALE);
-        MusicAuthor musicAuthor2 = new MusicAuthor("Петр", "Чайковский", Gender.MALE);
+        Person musicAuthor1 = new Person("Джакомо", "Пуччини", Gender.MALE);
+        Person musicAuthor2 = new Person("Петр", "Чайковский", Gender.MALE);
         Choreographer choreographer = new Choreographer("Майя", "Плисецкая", Gender.FEMALE);
 
         //Создать три спектакля: обычный, оперный и балет

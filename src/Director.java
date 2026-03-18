@@ -1,4 +1,5 @@
 public class Director extends Person {
+
     public int numberOfShows = 0;
 
     public Director(String name, String surname, Gender gender) {

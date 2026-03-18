@@ -1,6 +1,7 @@
 import java.util.Objects;
 
 public class Actor extends Person {
+
     private final int height;
 
     public Actor(String name, String surname, Gender gender, int height) {
